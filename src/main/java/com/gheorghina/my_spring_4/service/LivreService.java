@@ -1,10 +1,10 @@
-package service;
+package com.gheorghina.my_spring_4.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import model.Livre;
-import repository.LivreRepository;
+import com.gheorghina.my_spring_4.model.Livre;
+import com.gheorghina.my_spring_4.repository.LivreRepository;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,7 +1,5 @@
-package controller;
+package com.gheorghina.my_spring_4.controller;
 
-import model.Livre;
-import service.LivreService;
 import java.util.List;
 import java.util.Optional;
 
@@ -12,6 +10,9 @@ import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.gheorghina.my_spring_4.model.Livre;
+import com.gheorghina.my_spring_4.service.LivreService;
 
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;

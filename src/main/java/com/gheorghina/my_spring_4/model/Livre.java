@@ -1,4 +1,4 @@
-package model;
+package com.gheorghina.my_spring_4.model;
 
 import java.sql.Date;
 
